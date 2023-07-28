@@ -3,7 +3,6 @@
 ```
 Full name: Christian Ansel B. Fernandez
 Email Address: christianansel.fernandez@gmail.com
-Applied from: LinkedIn
 ```
 
 ## Pre-requisites
