@@ -11,11 +11,11 @@ public class CheckoutCardTest {
 
     @Test
     public void without3DSecureVerfication() throws MalformedURLException{
-        // Act
+        // Arrange
         Checkout checkout = new Checkout();
         checkout.OneTimeDonation();
 
-        // Action
+        // Act
         checkout.isCheckoutPageLoaded().submitCardDetails("Without 3D secure Verfication");
 
         // Assert
@@ -25,11 +25,11 @@ public class CheckoutCardTest {
 
     @Test
     public void with3DSecureVerfication() throws MalformedURLException {
-        // Act
+        // Arrange
         Checkout checkout = new Checkout();
         checkout.OneTimeDonation();
 
-        // Action
+        // Act
         checkout.isCheckoutPageLoaded().submitCardDetails("With 3D secure Verfication").completeVerification();
 
         // Assert
